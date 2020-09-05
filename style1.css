@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style-type:none;
+    display: flex;
+ justify-content:flex-end;
+    background-color:black;
+    padding:10px;
+   /* float:left; */
+}
+a{
+    margin:5px;
+    text-decoration:none;
+    color:white;
+    
+}
+a:hover{
+    color:red;
+    background-color:chartreuse;
+    /* text-decoration:underline; */
+}
+.n1{
+    position:absolute;
+    color:white;
+    margin:6px;
+    padding:3px;
+    border:4px solid orange;
+}
+.team{
+    display:flex;
+    text-align:center;
+  animation-iteration-count: 1;
+}
+.team-member{
+    border:5px solid orange;
+    margin:5px;
+
+}
+.team-member h2{
+    margin-top:36px;
+    background-color:whitesmoke;
+    padding:18px;
+}
+.team-member p{
+    margin-top:30px;
+}
+h1{
+    text-align:center;
+    font-family: 'Josefin Slab', cursive;
+}

@@ -14,11 +14,13 @@ a{
     margin:5px;
     text-decoration:none;
     color:white;
+    padding:5px;
     
 }
 a:hover{
     color:red;
-    background-color:chartreuse;
+    background-color:#eee;
+
     /* text-decoration:underline; */
 }
 .n1{
@@ -53,4 +55,6 @@ h1{
 .active{
     background-color:chartreuse;
     color:white;
+    padding:5px;
+    margin:0px;
 }
